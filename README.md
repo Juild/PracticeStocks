@@ -1,6 +1,6 @@
-# iOS SwiftUI Learning App: PracticeStocks
+# PracticeStocks
 
-Welcome to the iOS SwiftUI Learning App! This is a personal project aimed at learning iOS development using SwiftUI. The app showcases various functionalities implemented during the learning process, following the MVVM architecture.
+Welcome to the PracticeStocks App! This is a personal project aimed at learning iOS development using SwiftUI. The app showcases various functionalities implemented during the learning process, following the MVVM architecture.
 
 ## Features
 
