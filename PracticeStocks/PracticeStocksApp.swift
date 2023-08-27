@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+    @main
 struct PracticeStocksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
