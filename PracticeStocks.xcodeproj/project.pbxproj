@@ -21,7 +21,7 @@
 		4995C6002A8E273400C95685 /* HomeView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C5FF2A8E273400C95685 /* HomeView-ViewModel.swift */; };
 		4995C6032A8E7F6100C95685 /* StocksVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C6022A8E7F6100C95685 /* StocksVStack.swift */; };
 		4995C6052A93CC7F00C95685 /* StockSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C6042A93CC7F00C95685 /* StockSearchResult.swift */; };
-		4995C60C2A9515AE00C95685 /* Stock-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C60B2A9515AE00C95685 /* Stock-ViewModel.swift */; };
+		4995C60C2A9515AE00C95685 /* StockVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C60B2A9515AE00C95685 /* StockVM.swift */; };
 		4995C60F2A9515CA00C95685 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C60E2A9515CA00C95685 /* ModelProtocol.swift */; };
 		4995C6112A951EB500C95685 /* AppButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C6102A951EB500C95685 /* AppButtonView.swift */; };
 		4995C6132A96160000C95685 /* StockTimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C6122A96160000C95685 /* StockTimeSeries.swift */; };
@@ -30,6 +30,7 @@
 		4995C61C2A966A4A00C95685 /* SeriesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4995C61B2A966A4A00C95685 /* SeriesVM.swift */; };
 		499E6AD12A98E9F1005000A1 /* StockOverviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499E6AD02A98E9F1005000A1 /* StockOverviewModel.swift */; };
 		499E6AD32A98EB39005000A1 /* StockOverviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499E6AD22A98EB39005000A1 /* StockOverviewVM.swift */; };
+		499E6AD52A9B969B005000A1 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499E6AD42A9B969A005000A1 /* UtilityFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +68,7 @@
 		4995C5FF2A8E273400C95685 /* HomeView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView-ViewModel.swift"; sourceTree = "<group>"; };
 		4995C6022A8E7F6100C95685 /* StocksVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksVStack.swift; sourceTree = "<group>"; };
 		4995C6042A93CC7F00C95685 /* StockSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearchResult.swift; sourceTree = "<group>"; };
-		4995C60B2A9515AE00C95685 /* Stock-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock-ViewModel.swift"; sourceTree = "<group>"; };
+		4995C60B2A9515AE00C95685 /* StockVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockVM.swift; sourceTree = "<group>"; };
 		4995C60E2A9515CA00C95685 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
 		4995C6102A951EB500C95685 /* AppButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonView.swift; sourceTree = "<group>"; };
 		4995C6122A96160000C95685 /* StockTimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTimeSeries.swift; sourceTree = "<group>"; };
@@ -76,6 +77,9 @@
 		4995C61B2A966A4A00C95685 /* SeriesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesVM.swift; sourceTree = "<group>"; };
 		499E6AD02A98E9F1005000A1 /* StockOverviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOverviewModel.swift; sourceTree = "<group>"; };
 		499E6AD22A98EB39005000A1 /* StockOverviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockOverviewVM.swift; sourceTree = "<group>"; };
+		499E6AD42A9B969A005000A1 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		499E6AD62A9BA71E005000A1 /* definitive_practice_stocs.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = definitive_practice_stocs.mov; path = ../../definitive_practice_stocs.mov; sourceTree = "<group>"; };
+		499E6AD72A9BA72D005000A1 /* example.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		4995C5A02A8B79C700C95685 = {
 			isa = PBXGroup;
 			children = (
+				499E6AD72A9BA72D005000A1 /* example.mov */,
 				4995C5AB2A8B79C700C95685 /* PracticeStocks */,
 				4995C5BC2A8B79C800C95685 /* PracticeStocksTests */,
 				4995C5C62A8B79C800C95685 /* PracticeStocksUITests */,
@@ -155,6 +160,7 @@
 		4995C5C62A8B79C800C95685 /* PracticeStocksUITests */ = {
 			isa = PBXGroup;
 			children = (
+				499E6AD62A9BA71E005000A1 /* definitive_practice_stocs.mov */,
 				4995C5C72A8B79C800C95685 /* PracticeStocksUITests.swift */,
 				4995C5C92A8B79C800C95685 /* PracticeStocksUITestsLaunchTests.swift */,
 			);
@@ -214,6 +220,7 @@
 			children = (
 				4995C6142A9638DE00C95685 /* Views */,
 				4995C60D2A9515BC00C95685 /* Protocols */,
+				499E6AD42A9B969A005000A1 /* UtilityFunctions.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -231,7 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				4995C5FF2A8E273400C95685 /* HomeView-ViewModel.swift */,
-				4995C60B2A9515AE00C95685 /* Stock-ViewModel.swift */,
+				4995C60B2A9515AE00C95685 /* StockVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -411,6 +418,7 @@
 				4995C61C2A966A4A00C95685 /* SeriesVM.swift in Sources */,
 				4995C6032A8E7F6100C95685 /* StocksVStack.swift in Sources */,
 				499E6AD12A98E9F1005000A1 /* StockOverviewModel.swift in Sources */,
+				499E6AD52A9B969B005000A1 /* UtilityFunctions.swift in Sources */,
 				499E6AD32A98EB39005000A1 /* StockOverviewVM.swift in Sources */,
 				4995C61A2A96408700C95685 /* StocksView-ViewModel.swift in Sources */,
 				4995C6112A951EB500C95685 /* AppButtonView.swift in Sources */,
@@ -418,7 +426,7 @@
 				4995C5DB2A8BDA3E00C95685 /* AddWithdrawFundsView.swift in Sources */,
 				4995C5DD2A8CD0ED00C95685 /* StockListView.swift in Sources */,
 				4995C60F2A9515CA00C95685 /* ModelProtocol.swift in Sources */,
-				4995C60C2A9515AE00C95685 /* Stock-ViewModel.swift in Sources */,
+				4995C60C2A9515AE00C95685 /* StockVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

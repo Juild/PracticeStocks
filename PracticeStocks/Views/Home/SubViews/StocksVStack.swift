@@ -26,7 +26,7 @@ struct StocksVStack: View {
                     }
                     .buttonStyle(.borderless)
 
-                    NavigationLink(destination: Text("Details for \(stock.symbol)")) {
+                    NavigationLink(destination: DetailsView(viewModel: DetailsView.ViewModel(symbol: stock.symbol))) {
                         VStack(alignment: .leading) {
                             Text(stock.symbol)
                                 .font(.headline)

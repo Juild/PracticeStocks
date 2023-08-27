@@ -25,7 +25,7 @@ struct StockOverviewVM {
             let otherSelf = Mirror(reflecting: self)
             for child in otherSelf.children {
                 if let key = child.label {
-                    dict[key] = String(describing: child.value)
+                    dict[camelCaseToNaturalLanguage(key)] = String(describing: child.value)
                 }
             }
             return dict

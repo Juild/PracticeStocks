@@ -32,41 +32,65 @@ struct DetailsView: View {
     @StateObject var viewModel: DetailsView.ViewModel
     var body: some View {
         
-        NavigationView {
-            ScrollView {
-                VStack {
-                    LinePlotView()
-                        .environmentObject(viewModel)
-                        .padding()
-                    
-                    
-                    HStack {
-                        Section(header: Text("Financial Statistics")
-                            .font(.title)
-                            .bold()) {
-                                
-                            }
-                        Spacer()
-                    }
+        
+        ScrollView {
+            VStack {
+                HStack {
+                    Text(viewModel.symbol)
+                        .font(.title)
+                        .bold()
+                    Spacer()
+                }
+                LinePlotView()
+                    .environmentObject(viewModel)
                     .padding()
-                    ForEach(Array(viewModel.stockOverview.toDict()), id: \.key) { key, value in
-                            
+                
+                
+                HStack {
+                    Section(
+                        header: Text("Overview")
+                            .font(.title)
+                            .bold()
+                    ) {
                         
-                        Section(header: Text("\(key)").font(.title2)) {
+                    }
+                    Spacer()
+                }
+                .padding([.vertical])
+                ForEach(Array(viewModel.stockOverview.toDict()), id: \.key) { key, value in
+                    
+                    
+                    
+                    HStack{
+                        Section(
+                            header: Text("\(key)")
+                                .font(.title2)
+                                .bold()
+                        ) {
                             
                         }
-                            Text("\(value)")
-                            
+                        Spacer()
                     }
-                    .padding()
                     
+                    HStack {
+                        Text("\(value)")
+                        Spacer()
+                        
+                    }
+                    
+                    .padding([.vertical])
                     
                     
                 }
                 
-                .navigationTitle(viewModel.symbol)
+                
+                
+                
             }
+            .padding()
+            
         }
+        
         
         
         
