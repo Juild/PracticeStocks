@@ -2,6 +2,11 @@
 
 Welcome to the PracticeStocks App! This is a personal project aimed at learning iOS development using SwiftUI. The app showcases various functionalities implemented during the learning process, following the MVVM architecture.
 
+Video example:
+
+https://youtu.be/FSj2tLRn22M
+
+
 ## Features
 
 - Add and withdraw funds
