@@ -28,4 +28,4 @@ Stock price history data is retrieved using the AlphaVantage API.
 
 If you're curious about my learning journey, the MVVM architecture implementation, or have any suggestions, feel free to connect:
 
-- GitHub: [YourGitHubUsername](https://github.com/Juild)
+- GitHub: [Juild](https://github.com/Juild)
