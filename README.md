@@ -4,7 +4,11 @@ Welcome to the PracticeStocks App! This is a personal project aimed at learning 
 
 Video example:
 
-https://youtu.be/FSj2tLRn22M
+
+
+
+https://github.com/Juild/PracticeStocks/assets/74079422/f1900e6b-6126-402d-93db-511a1e5e175e
+
 
 
 ## Features
